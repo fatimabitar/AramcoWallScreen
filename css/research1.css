@@ -1,0 +1,456 @@
+.research-1,
+.research-2,
+.research-3,
+.research-4,
+.research-5,
+.research-6,
+.research-7 {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.research-1 > .back-shape {
+  background: url("../images/frame1.png");
+  background-size: cover;
+}
+
+.research-1 .rect {
+  width: 100%;
+  opacity: 0.5;
+}
+.research-conainer-1 {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.research-info-1 {
+  margin: 30px 0;
+  width: 80%;
+}
+.research-info-1 > h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.caynn {
+  color: #00ffff;
+  margin-bottom: 30px;
+}
+
+.counters {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.arrows > a {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.arrows > a > img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.research-1 .btns-div {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 75px 0 0 30px;
+}
+.research-1 .btns-div > .btn {
+  width: 200px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.research-1 .btn.active {
+  background: linear-gradient(90.18deg, #2affff 4.54%, #17b6fe 219.8%);
+  color: #03012d;
+  font-weight: 600;
+}
+
+.foxMask {
+  position: absolute;
+  width: 25%;
+  opacity: 0.8;
+  right: 20%;
+  top: -3%;
+}
+
+.turtule {
+  position: absolute;
+  width: 40%;
+  bottom: 25%;
+  right: 5%;
+  z-index: 5;
+}
+
+.research-1 > .v9 {
+  position: absolute;
+  width: 100px;
+  right: 42%;
+  bottom: 32%;
+}
+
+.research-1 .v11 {
+  position: absolute;
+  width: 175px;
+  opacity: 0.5;
+  right: 28%;
+  bottom: 30%;
+  z-index: 3;
+}
+
+.b-arrow {
+  position: absolute;
+  width: 200px;
+  left: 27%;
+  top: 25%;
+}
+
+/* Research 2 */
+
+.research-2 > .back-shape {
+  background: url("../images/faram2.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.research-2 .counters,
+.research-3 .counters {
+  margin-top: 100px !important;
+}
+.research-2 .btns-div {
+  margin-top: 70px;
+}
+
+.research .navigation {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+}
+
+/* Research 3 */
+.research-3 > .back-shape {
+  background: url("../images/rectangle.png"),
+    linear-gradient(90deg, #094ea3, #145bb1);
+  background-size: cover;
+  background-position: bottom;
+}
+.research-3 .counters,
+.research-4 .counters,
+.research-5 .counters {
+  width: 35%;
+}
+.research-3 .counters:last-child,
+.research-4 .counters:last-child,
+.research-5 .counters:last-child {
+  width: 25%;
+}
+
+.research-text-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.research-3 .btns-div {
+  margin-top: 40px;
+}
+
+.i {
+  width: 22%;
+  position: absolute;
+}
+.i-1 {
+  top: 33%;
+  left: 38%;
+  z-index: 30;
+}
+.i-2 {
+  top: 23%;
+  left: 38%;
+  z-index: 25;
+}
+.i-3 {
+  width: 8%;
+  top: 20%;
+  left: 43%;
+  z-index: 31;
+}
+
+.i-4 {
+  width: 200px;
+  top: 23%;
+  left: 38%;
+  z-index: 25;
+  opacity: 0.5;
+}
+.i-5 {
+  width: 120px;
+  top: 37%;
+  left: 50%;
+  z-index: 25;
+  opacity: 0.6;
+}
+.i-6 {
+  width: 90px;
+  top: 45%;
+  left: 44%;
+  z-index: 25;
+  opacity: 0.8;
+}
+.i-7 {
+  width: 70px;
+  top: 45%;
+  left: 38%;
+  z-index: 25;
+  opacity: 0.9;
+}
+.i-8 {
+  width: 200px;
+  top: 45%;
+  left: 44%;
+  z-index: 25;
+  opacity: 0.5;
+}
+.i-9 {
+  width: 100px;
+  top: 45%;
+  left: 42%;
+  z-index: 25;
+}
+
+/* Research 4 */
+.frame {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.research-4 .btns-div {
+  margin-top: 110px;
+}
+
+.j {
+  width: 20%;
+  position: absolute;
+}
+
+.j1 {
+  top: 36%;
+  left: 38%;
+  opacity: 0.9;
+  z-index: 6;
+}
+.j2 {
+  width: 14%;
+  top: 37%;
+  left: 47%;
+  opacity: 0.4;
+}
+.j3 {
+  width: 6%;
+  top: 39%;
+  left: 57%;
+}
+.j4 {
+  width: 3%;
+  top: 30%;
+  left: 55%;
+  opacity: 0.5;
+}
+.j5 {
+  width: 3%;
+  top: 25%;
+  left: 56%;
+}
+.j6 {
+  width: 5%;
+  top: 30%;
+  left: 51%;
+}
+.j7 {
+  width: 3%;
+  top: 36%;
+  left: 41%;
+}
+.j8 {
+  width: 4%;
+  top: 48%;
+  left: 44%;
+  z-index: 30;
+}
+.j9 {
+  width: 3%;
+  top: 58%;
+  left: 40%;
+  z-index: 30;
+}
+.j10 {
+  width: 3%;
+  top: 54%;
+  left: 60%;
+}
+
+/* Research 5 */
+.research-5 > .back-shape {
+  background: url("../images/frame4.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.research-5 .btns-div {
+  margin-top: 90px;
+}
+.k {
+  width: 20%;
+  position: absolute;
+}
+
+.k1 {
+  top: 36%;
+  left: 38%;
+  opacity: 0.9;
+  z-index: 6;
+}
+.k2 {
+  width: 14%;
+  top: 45%;
+  left: 42%;
+  opacity: 0.9;
+  z-index: 1;
+}
+.k3 {
+  width: 20%;
+  top: 45%;
+  left: 50%;
+  z-index: 3;
+}
+.k4 {
+  width: 14%;
+  top: 55%;
+  left: 38%;
+  z-index: 3;
+}
+.k5 {
+  width: 3%;
+  top: 18%;
+  left: 58%;
+  z-index: 3;
+  opacity: 0.8;
+}
+.k6 {
+  width: 2%;
+  top: 48%;
+  left: 58%;
+  z-index: 3;
+  opacity: 0.8;
+}
+
+/* Research 6 */
+.research-6 > .back-shape {
+  background: url("../images/frameB.png");
+  background-size: cover;
+}
+
+.counter-6 {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+}
+.counter-6 > span {
+  font-weight: bold;
+}
+.research-6 .arrows {
+  margin: 50px auto !important;
+  text-align: center;
+}
+.climateTree {
+  width: 30%;
+  position: absolute;
+  top: 15%;
+  right: 3%;
+  opacity: 0.8;
+}
+
+.treeBack {
+  position: absolute;
+  width: 20%;
+  top: -3%;
+  right: 22%;
+  opacity: 0.5;
+}
+
+/* Research 7 */
+.research-7 > .back-shape {
+  background: url("../images/frame7.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.research-6 .btns-div {
+  margin-top: 90px;
+}
+.research-7 .btns-div {
+  margin-top: 60px;
+}
+.research-7 .research-text-content {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.research-7 .research-text-content .counter-6 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.b-arrow-1 {
+  top: 1%;
+  left: 14%;
+}
+
+.assest {
+  position: absolute;
+  width: 50%;
+  z-index: 5;
+}
+.layer1 {
+  width: 25%;
+  right: 21%;
+  opacity: 0.5;
+}
+
+.layer2 {
+  width: 15%;
+  right: 20%;
+  bottom: 21%;
+  opacity: 0.5;
+}
+.drone {
+  width: 18%;
+  right: 10%;
+  bottom: 38%;
+}
+
+.v24 {
+  width: 10%;
+  right: 20%;
+  top: 25%;
+  z-index: 6;
+}
+.research-7 .v13 {
+  width: 5%;
+  right: 30%;
+  top: 45%;
+  opacity: 0.5;
+}

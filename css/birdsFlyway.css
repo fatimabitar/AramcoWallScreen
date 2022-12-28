@@ -1,0 +1,1086 @@
+.birdFlyway {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  z-index: 3;
+}
+.birdFlyway .counters:last-child{
+  text-align: right;
+}
+.t-left{
+  text-align: left !important;
+}
+
+.birdFlyway-2 .navigation,
+.birdFlyway-3 .navigation,
+.birdFlyway-4 .navigation,
+.birdFlyway-5 .navigation,
+.birdFlyway-6 .navigation,
+.birdFlyway-7 .navigation,
+.birdFlyway-8 .navigation,
+.birdFlyway-9 .navigation,
+.birdFlyway-10 .navigation,
+.birdFlyway-11 .navigation,
+.birdFlyway-12 .navigation {
+  left: 14%;
+}
+.birdFlyway-1 > .back-shape {
+  background: url("../images/Frame6.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.flyGlobe {
+  width: 32%;
+  position: absolute;
+  right: 11%;
+  top: -5%;
+}
+.flySpark {
+  width: 28%;
+  position: absolute;
+  right: 12%;
+  top: -3%;
+  opacity: 0.7;
+}
+
+.lefthandIcon {
+  position: absolute;
+  width: 4%;
+  right: 11%;
+  top: 38%;
+}
+.navigation-n {
+  left: 25%;
+}
+.circle {
+  width: 390px;
+  height: 390px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #00ffff;
+  position: absolute;
+  right: 8.5%;
+  bottom: 19%;
+}
+.birdFlyway-1 .caynn {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 700;
+}
+.birdFlyway-2 .caynn {
+  width: 50%;
+  font-size: 23px;
+  font-weight: 700;
+}
+.birdFlyway-1 .counters {
+  width: 45%;
+  font-size: 14px;
+}
+
+.birdFlyway .btns-div {
+  margin-top: 60px;
+}
+
+.bird {
+  position: absolute;
+  width: 8%;
+  z-index: 1000;
+}
+.bird > img {
+  width: 100%;
+}
+
+.bird-1 {
+  right: 23%;
+  top: -19%;
+}
+.bird-2 {
+  right: 12%;
+  top: -16%;
+}
+.bird-3 {
+  right: 6%;
+  top: 2%;
+}
+.bird-4 {
+  right: 6%;
+  top: 35%;
+}
+.bird-5 {
+  width: 13%;
+  right: 7%;
+  top: 53%;
+}
+.bird-6 {
+  width: 13%;
+  right: 18%;
+  top: 70%;
+}
+.bird-7 {
+  width: 6%;
+  right: 31%;
+  top: 64%;
+}
+.bird-8 {
+  width: 12%;
+  right: 34%;
+  top: 43%;
+}
+.bird-9 {
+  width: 13%;
+  right: 38%;
+  top: 25%;
+}
+.bird-10 {
+  width: 13%;
+  right: 35%;
+  top: 0%;
+}
+.bird-12 {
+  /* width: 13%; */
+  right: 32%;
+  top: -21%;
+}
+.birdFlyway-2 > .back-shape {
+  background: url("../images/frame7.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.birdFlyway .research-text-content .counters {
+  width: 25%;
+  font-size: 14px;
+}
+.birdFlyway .re-title {
+  margin-bottom: 5px;
+}
+.birdFlyway-2 .btns-div {
+  margin-top: 50px;
+}
+.birdFlyway-6 .btns-div {
+  margin-top: 105px;
+}
+.birdFlyway-1 .caynn {
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.img {
+  position: absolute;
+  width: 25%;
+}
+
+.ar-globe {
+  left: 36.5%;
+  top: 18%;
+  z-index: 3;
+}
+.Ellipse {
+  width: 28%;
+  z-index: 1;
+  left: 35%;
+  top: 15%;
+}
+.bArrow {
+  width: 10%;
+  left: 22%;
+}
+
+.birdFlyway-2 .bird {
+  width: 6%;
+}
+.birdFlyway-2 .bird-1 {
+  right: 45%;
+  top: 11%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-2 {
+  right: 39%;
+  top: 15%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-3 {
+  width: 5%;
+  opacity: 0.8;
+  right: 35%;
+  top: 28%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-4 {
+  width: 5%;
+  opacity: 0.8;
+  right: 36%;
+  top: 45%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-5 {
+  width: 10%;
+  opacity: 0.8;
+  right: 36%;
+  top: 55%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-6 {
+  width: 10%;
+  right: 44%;
+  top: 64%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-7 {
+  width: 4%;
+  right: 54%;
+  top: 63%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-8 {
+  width: 20%;
+  right: 53%;
+  top: 37%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-9 {
+  right: 60%;
+  width: 10%;
+  top: 37%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-10 {
+  right: 58%;
+  width: 10%;
+  top: 20%;
+  z-index: 5;
+}
+.birdFlyway-2 .bird-12 {
+  right: 55%;
+  width: 5%;
+  top: 11%;
+  z-index: 5;
+}
+
+.saudi {
+  right: 48%;
+  top: 35%;
+  z-index: 5;
+  width: 4% !important;
+}
+
+/* 3 */
+#birdFlyway-3 .bird-8 {
+  width: 10%;
+  right: 58%;
+  top: 50%;
+  z-index: 5;
+  opacity: 1;
+}
+
+.birdFlyway-3 .bird-7 {
+  width: 8%;
+  right: 51%;
+  top: 62%;
+  z-index: 5;
+}
+.birdFlyway-3 .bird-6 {
+  width: 3%;
+  right: 47%;
+  top: 66%;
+  z-index: 5;
+}
+.birdFlyway-3 .bird-5 {
+  width: 10%;
+  opacity: 0.9;
+  right: 38%;
+  top: 60%;
+  z-index: 5;
+}
+.birdFlyway-3 .bird-4 {
+  opacity: 0.9;
+  right: 34%;
+  top: 48%;
+  z-index: 5;
+}
+.birdFlyway-3 .bird-3 {
+  width: 5%;
+  opacity: 0.8;
+  right: 34%;
+  top: 32%;
+  z-index: 5;
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+}
+
+.birdFlyway-3 .bird-2 {
+  right: 39%;
+  top: 18%;
+  z-index: 5;
+  width: 4%;
+}
+.birdFlyway-3 .bird-1 {
+  right: 47%;
+  top: 8%;
+  z-index: 5;
+  width: 6%;
+}
+
+.birdFlyway-3 .bird-9 {
+  right: 62%;
+  width: 6%;
+  top: 36%;
+  z-index: 5;
+}
+.birdFlyway-3 .bird-10 {
+  right: 58%;
+  width: 10%;
+  top: 20%;
+  z-index: 5;
+}
+.birdFlyway-3 .bird-12 {
+  right: 55%;
+  width: 5%;
+  top: 11%;
+  z-index: 5;
+}
+
+/* 4 */
+.birdFlyway-4 .btns-div {
+  margin-top: 95px;
+}
+
+.birdFlyway-4 .bird-1 {
+  right: 45%;
+  top: 8%;
+  z-index: 5;
+  width: 5%;
+  opacity: 0.8;
+}
+.birdFlyway-4 .bird-2 {
+  right: 39%;
+  top: 18%;
+  z-index: 5;
+  width: 5%;
+  opacity: 0.8;
+}
+.birdFlyway-4 .bird-3 {
+  width: 7%;
+  right: 34%;
+  top: 28%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-4 {
+  width: 10%;
+  right: 32.5%;
+  top: 42%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-5 {
+  width: 5%;
+  opacity: 0.8;
+  right: 38%;
+  top: 55%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-6 {
+  width: 8%;
+  right: 44%;
+  top: 62%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-7 {
+  width: 8%;
+  right: 52%;
+  top: 63%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-8 {
+  width: 15%;
+  right: 55%;
+  top: 48%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-9 {
+  right: 62.5%;
+  width: 5%;
+  top: 36%;
+  z-index: 5;
+}
+.birdFlyway-4 .bird-10 {
+  right: 59%;
+  width: 6%;
+  top: 23%;
+  z-index: 5;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.birdFlyway-4 .bird-12 {
+  right: 55%;
+  width: 5%;
+  top: 11%;
+  z-index: 5;
+}
+
+/* 5 */
+.birdFlyway-5 .bird-1 {
+  right: 48%;
+  top: 8%;
+  z-index: 5;
+  width: 5%;
+  opacity: 0.8;
+}
+.birdFlyway-5 .bird-2 {
+  right: 38%;
+  top: 12%;
+  z-index: 5;
+  width: 9%;
+  opacity: 0.8;
+  transform: rotate(65deg);
+  -webkit-transform: rotate(65deg);
+  -moz-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  -o-transform: rotate(65deg);
+}
+.birdFlyway-5 .bird-3 {
+  width: 8%;
+  right: 34%;
+  top: 28%;
+  z-index: 5;
+}
+.birdFlyway-5 .bird-4 {
+  width: 4%;
+  right: 35%;
+  top: 42%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-5 .bird-5 {
+  width: 8%;
+  opacity: 0.8;
+  right: 38%;
+  top: 55%;
+  z-index: 5;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.birdFlyway-5 .bird-6 {
+  width: 8%;
+  right: 44%;
+  top: 64%;
+  z-index: 5;
+}
+.birdFlyway-5 .bird-7 {
+  width: 8%;
+  right: 52%;
+  top: 65%;
+  z-index: 5;
+}
+.birdFlyway-5 .bird-8 {
+  width: 9%;
+  right: 57%;
+  top: 47%;
+  z-index: 5;
+}
+.birdFlyway-5 .bird-9 {
+  right: 61%;
+  width: 5%;
+  top: 36%;
+  z-index: 5;
+  transform: rotate(-65deg);
+  -webkit-transform: rotate(-65deg);
+  -moz-transform: rotate(-65deg);
+  -ms-transform: rotate(-65deg);
+  -o-transform: rotate(-65deg);
+}
+.birdFlyway-5 .bird-10 {
+  right: 60%;
+  width: 6%;
+  top: 20%;
+  z-index: 5;
+  opacity: 0.8;
+  transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  -o-transform: rotate(-25deg);
+}
+.birdFlyway-5 .bird-12 {
+  right: 55%;
+  width: 5%;
+  top: 11%;
+  z-index: 5;
+  opacity: 0.6;
+}
+
+/* 6 */
+.birdFlyway-6 .bird-1 {
+  right: 46%;
+  top: 8%;
+  z-index: 5;
+  opacity: 0.8;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.birdFlyway-6 .bird-2 {
+  right: 38%;
+  top: 14%;
+  z-index: 5;
+  width: 9%;
+  opacity: 0.8;
+}
+.birdFlyway-6 .bird-3 {
+  width: 5%;
+  right: 35%;
+  top: 26%;
+  z-index: 5;
+}
+.birdFlyway-6 .bird-4 {
+  width: 8%;
+  right: 34%;
+  top: 42%;
+  z-index: 5;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.birdFlyway-6 .bird-5 {
+  width: 8%;
+  opacity: 0.8;
+  right: 38%;
+  top: 58%;
+  z-index: 5;
+}
+.birdFlyway-6 .bird-6 {
+  width: 8%;
+  right: 44%;
+  top: 65%;
+  z-index: 5;
+}
+.birdFlyway-6 .bird-7 {
+  width: 5%;
+  right: 54%;
+  top: 63%;
+  z-index: 5;
+}
+.birdFlyway-6 .bird-8 {
+  width: 11%;
+  right: 57%;
+  top: 48%;
+  z-index: 5;
+}
+.birdFlyway-6 .bird-9 {
+  right: 61%;
+  width: 7%;
+  top: 35%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-6 .bird-10 {
+  right: 60%;
+  width: 5%;
+  top: 21%;
+  z-index: 5;
+}
+.birdFlyway-6 .bird-12 {
+  right: 55%;
+  width: 5%;
+  top: 11%;
+  z-index: 5;
+  opacity: 0.8;
+}
+/* 7 */
+.birdFlyway-7 .bird-1 {
+  right: 46%;
+  top: 9%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-7 .bird-2 {
+  right: 40%;
+  top: 14%;
+  z-index: 5;
+  width: 4%;
+  opacity: 0.8;
+}
+.birdFlyway-7 .bird-3 {
+  width: 7%;
+  right: 34%;
+  top: 26%;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-4 {
+  width: 8%;
+  right: 33%;
+  top: 42%;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-5 {
+  width: 8%;
+  opacity: 0.8;
+  right: 37%;
+  top: 58%;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-6 {
+  width: 4%;
+  right: 47%;
+  top: 65%;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-7 {
+  width: 5%;
+  right: 54%;
+  top: 64%;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-8 {
+  width: 9%;
+  right: 59%;
+  top: 49%;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-9 {
+  right: 62%;
+  width: 5%;
+  top: 35%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-7 .bird-10 {
+  right: 60%;
+  width: 5%;
+  top: 21%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-7 .bird-12 {
+  right: 53%;
+  width: 8%;
+  top: 10%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-7 .btns-div {
+  margin-top: 100px;
+}
+
+/* 8 */
+.birdFlyway-8 .btns-div {
+  margin-top: 135px;
+}
+.birdFlyway-8 .bird-1 {
+  right: 48%;
+  top: 8%;
+  z-index: 5;
+  opacity: 0.8;
+  width: 4%;
+}
+.birdFlyway-8 .bird-2 {
+  right: 40%;
+  top: 11%;
+  z-index: 5;
+  width: 7%;
+  opacity: 0.8;
+}
+.birdFlyway-8 .bird-3 {
+  width: 8%;
+  right: 34%;
+  top: 26%;
+  z-index: 5;
+}
+.birdFlyway-8 .bird-4 {
+  width: 8%;
+  right: 33%;
+  top: 42%;
+  z-index: 5;
+}
+.birdFlyway-8 .bird-5 {
+  width: 5%;
+  opacity: 0.8;
+  right: 39%;
+  top: 58%;
+  z-index: 5;
+}
+.birdFlyway-8 .bird-6 {
+  width: 5%;
+  right: 47%;
+  top: 66%;
+  z-index: 5;
+}
+.birdFlyway-8 .bird-7 {
+  width: 5%;
+  right: 54%;
+  top: 64%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-8 .bird-8 {
+  width: 10%;
+  right: 58%;
+  top: 49%;
+  z-index: 5;
+}
+.birdFlyway-8 .bird-9 {
+  right: 63%;
+  width: 5%;
+  top: 35%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-8 .bird-10 {
+  right: 58%;
+  width: 9%;
+  top: 19%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-8 .bird-12 {
+  right: 53%;
+  width: 8%;
+  top: 10%;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+/* 9 */
+.birdFlyway-9 .btns-div {
+  margin-top: 135px;
+}
+.birdFlyway-9 .bird-1 {
+  right: 48%;
+  top: 7%;
+  z-index: 5;
+  opacity: 0.8;
+  width: 8%;
+}
+.birdFlyway-9 .bird-2 {
+  right: 40%;
+  top: 12%;
+  z-index: 5;
+  width: 8%;
+  opacity: 0.8;
+}
+.birdFlyway-9 .bird-3 {
+  width: 8%;
+  right: 34%;
+  top: 26%;
+  z-index: 5;
+}
+.birdFlyway-9 .bird-4 {
+  width: 5%;
+  right: 35%;
+  top: 42%;
+  z-index: 5;
+}
+.birdFlyway-9 .bird-5 {
+  width: 4%;
+  opacity: 0.8;
+  right: 40%;
+  top: 62%;
+  z-index: 5;
+}
+.birdFlyway-9 .bird-6 {
+  width: 5%;
+  right: 47%;
+  top: 66%;
+  z-index: 5;
+}
+.birdFlyway-9 .bird-7 {
+  width: 4%;
+  right: 54%;
+  top: 64%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-9 .bird-8 {
+  width: 10%;
+  right: 59%;
+  top: 49%;
+  z-index: 5;
+}
+.birdFlyway-9 .bird-9 {
+  right: 62%;
+  width: 7%;
+  top: 35%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-9 .bird-10 {
+  right: 59%;
+  width: 9%;
+  top: 21%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-9 .bird-12 {
+  right: 57%;
+  width: 4%;
+  top: 12%;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+/* 10 */
+.birdFlyway-10 .btns-div {
+  margin-top: 100px;
+}
+.birdFlyway-10 .bird-1 {
+  right: 47%;
+  top: 7%;
+  z-index: 5;
+  opacity: 0.8;
+  width: 10%;
+}
+.birdFlyway-10 .bird-2 {
+  right: 40%;
+  top: 12%;
+  z-index: 5;
+  width: 8%;
+  opacity: 0.8;
+}
+.birdFlyway-10 .bird-3 {
+  width: 5%;
+  right: 36%;
+  top: 26%;
+  z-index: 5;
+}
+.birdFlyway-10 .bird-4 {
+  width: 5%;
+  right: 34%;
+  top: 45%;
+  z-index: 5;
+}
+.birdFlyway-10 .bird-5 {
+  width: 4%;
+  opacity: 0.8;
+  right: 40%;
+  top: 60%;
+  z-index: 5;
+}
+.birdFlyway-10 .bird-6 {
+  width: 4%;
+  right: 47%;
+  top: 66%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-10 .bird-7 {
+  width: 5%;
+  right: 54%;
+  top: 64%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-10 .bird-8 {
+  width: 12%;
+  right: 55%;
+  top: 49%;
+  z-index: 5;
+}
+.birdFlyway-10 .bird-9 {
+  right: 62%;
+  width: 7%;
+  top: 40%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-10 .bird-10 {
+  right: 62%;
+  width: 4%;
+  top: 25%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-10 .bird-12 {
+  right: 56%;
+  width: 8%;
+  top: 12%;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+/* 11 */
+.birdFlyway-11 .btns-div {
+  margin-top: 110px;
+}
+.birdFlyway-11 .bird-1 {
+  right: 47%;
+  top: 8%;
+  z-index: 5;
+  width: 9%;
+}
+.birdFlyway-11 .bird-2 {
+  right: 40%;
+  top: 13%;
+  z-index: 5;
+  width: 5%;
+  opacity: 0.8;
+}
+.birdFlyway-11 .bird-3 {
+  width: 5%;
+  right: 37%;
+  top: 26%;
+  z-index: 5;
+  transform: rotate(65deg);
+  -webkit-transform: rotate(65deg);
+  -moz-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  -o-transform: rotate(65deg);
+}
+.birdFlyway-11 .bird-4 {
+  width: 5%;
+  right: 35%;
+  top: 45%;
+  z-index: 5;
+}
+.birdFlyway-11 .bird-5 {
+  width: 4%;
+  opacity: 0.8;
+  right: 40%;
+  top: 60%;
+  z-index: 5;
+  transform: rotate(-65deg);
+  -webkit-transform: rotate(-65deg);
+  -moz-transform: rotate(-65deg);
+  -ms-transform: rotate(-65deg);
+  -o-transform: rotate(-65deg);
+}
+.birdFlyway-11 .bird-6 {
+  width: 5%;
+  right: 49%;
+  top: 66%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-11 .bird-7 {
+  width: 9%;
+  right: 54%;
+  top: 60%;
+  z-index: 5;
+  opacity: 0.8;
+  transform: rotate(65deg);
+  -webkit-transform: rotate(65deg);
+  -moz-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  -o-transform: rotate(65deg);
+}
+.birdFlyway-11 .bird-8 {
+  width: 15%;
+  right: 55%;
+  top: 49%;
+  z-index: 5;
+}
+.birdFlyway-11 .bird-9 {
+  right: 63%;
+  width: 4%;
+  top: 40%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-11 .bird-10 {
+  right: 60%;
+  width: 7%;
+  top: 25%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-11 .bird-12 {
+  right: 55%;
+  width: 9%;
+  top: 12%;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+/* 12 */
+.birdFlyway-12 .btns-div {
+  margin-top: 30px;
+}
+.birdFlyway-12 .bird-1 {
+  right: 49%;
+  top: 6%;
+  z-index: 5;
+  opacity: 0.8;
+  width: 6%;
+}
+.birdFlyway-12 .bird-2 {
+  right: 40%;
+  top: 14%;
+  z-index: 5;
+  width: 5%;
+}
+.birdFlyway-12 .bird-3 {
+  width: 5%;
+  right: 35%;
+  top: 26%;
+  z-index: 5;
+}
+.birdFlyway-12 .bird-4 {
+  width: 5%;
+  right: 35%;
+  top: 45%;
+  z-index: 5;
+}
+.birdFlyway-12 .bird-5 {
+  width: 5%;
+  opacity: 0.8;
+  right: 40%;
+  top: 60%;
+  z-index: 5;
+}
+.birdFlyway-12 .bird-6 {
+  width: 7%;
+  right: 45%;
+  top: 64%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-12 .bird-7 {
+  width: 9%;
+  right: 52%;
+  top: 64%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-12 .bird-8 {
+  width: 12%;
+  right: 57%;
+  top: 45%;
+  z-index: 5;
+}
+.birdFlyway-12 .bird-9 {
+  right: 61%;
+  width: 7%;
+  top: 35%;
+  z-index: 5;
+  opacity: 0.8;
+}
+.birdFlyway-12 .bird-10 {
+  right: 60%;
+  width: 8%;
+  top: 25%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.birdFlyway-12 .bird-12 {
+  right: 56%;
+  width: 8%;
+  top: 16%;
+  z-index: 5;
+  opacity: 0.8;
+}

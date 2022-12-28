@@ -1,0 +1,27 @@
+:root {
+  --background: #002b61;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html {
+  color: #fff;
+  line-height: 1.5;
+  background: linear-gradient(to right, #fff, #d6d6d6);
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}

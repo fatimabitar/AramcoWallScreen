@@ -1,0 +1,137 @@
+.home-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.back-shape {
+  width: 100%;
+  height: 100%;
+  background: url("../images/rectangle.png"),
+    linear-gradient(90deg, #094ea3, #145bb1);
+  background-size: cover;
+  background-position: bottom;
+  margin: 0 auto;
+  clip-path: ellipse(45% 48% at 50% 50%);
+  position: relative;
+}
+.earth {
+  width: 101%;
+  opacity: 0.6;
+  position: absolute;
+  top: -8%;
+  left: 0.5%;
+  z-index: 4;
+}
+.shadow {
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  width: 40%;
+  z-index: 3;
+  opacity: 0.7;
+  mix-blend-mode: difference;
+}
+.text-container {
+  position: absolute;
+  left: 20%;
+  top: 28%;
+  text-align: center;
+  /* display: none; */
+}
+.text-container > h1 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.text-container > p {
+  font-weight: 300;
+  color: #d6d6d6;
+  width: 70%;
+}
+.blue-arrow {
+  width: 20%;
+  position: absolute;
+  opacity: 0.8;
+}
+.blue-top {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  top: -10%;
+  right: 20%;
+}
+.blue-bottom {
+  bottom: 0;
+  left: -10%;
+}
+
+.up,
+.down {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  z-index: 10;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.intro-menu {
+  position: absolute;
+  left: 33%;
+  top: 35%;
+  text-align: center;
+  width: 520px;
+  display: none;
+}
+
+.intro-menu > .hand {
+  width: 50%;
+  margin: 0 auto;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.intro-menu .btn {
+  font-size: 14px;
+}
+.btn {
+  width: 250px;
+  height: 50px;
+  font-size: 11px;
+  font-weight: 700x;
+  text-decoration: none;
+  color: #d6d6d6;
+  background: rgba(62, 61, 61, 0.2);
+  backdrop-filter: blur(40px);
+  border: 2px solid #d6d6d6;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.last {
+  width: 500px;
+}
+.down {
+  display: none;
+}

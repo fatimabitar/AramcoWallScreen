@@ -1,0 +1,86 @@
+.threatend {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.threatend > .back-shape {
+  background: linear-gradient(90deg, #0a4185, #145bb1);
+  background-size: cover;
+}
+.threatend .rect {
+  backdrop-filter: blur(10px);
+}
+
+.b-bird {
+  width: 65% !important;
+  position: absolute;
+  top: 12%;
+  left: -5%;
+  z-index: 2;
+}
+
+.th-mask {
+  width: 230px !important;
+  opacity: 0.4;
+  position: absolute;
+  top: 46%;
+}
+
+.th-v1 {
+  position: absolute;
+  width: 200px !important;
+  left: 35%;
+  top: 20%;
+}
+.th-v5 {
+  position: absolute;
+  width: 90px !important;
+  left: 50%;
+  bottom: -8%;
+  opacity: 0.5;
+}
+
+.b-brown {
+  position: absolute;
+  width: 200px !important;
+  left: 58%;
+  bottom: 16%;
+  opacity: 0.8;
+  z-index: 5;
+}
+
+.threatend .dt > p{
+    width: 38%;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.threatend .dt > p:last-child {
+    margin-bottom: 0;
+}
+
+.chart {
+    position: absolute;
+    width: 150px !important;
+    height: auto;
+    background: #17b6fe;
+}
+.chart > img {
+    width: 100%;
+    opacity: 0.8;
+}
+.chart1 {
+    top: 55%;
+    left: -10% !important;
+}
+.chart2 {
+    top: 25%;
+    left: -10% !important;
+}
+
+.v9 {
+    position: absolute;
+    width: 200px;
+    left: -12% !important;
+    top: 25%;
+}

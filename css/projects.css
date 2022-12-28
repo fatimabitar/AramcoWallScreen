@@ -1,0 +1,238 @@
+.projects-section {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.projects-section > .back-shape {
+  background: url("../images/usa.png"),
+    linear-gradient(90deg, var(--background), var(--background));
+  background-size: cover;
+}
+.projects-section > .back-shape.singapore {
+  background: url("../images/singapore.png"),
+    linear-gradient(90deg, var(--background), var(--background));
+  background-size: cover;
+}
+.rect {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pr-content {
+  width: 80%;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+.projects-div {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.globe-slide {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+.globe-slide > img {
+  width: 80%;
+}
+.left > img,
+.right > img {
+  width: 14px;
+  cursor: pointer;
+}
+
+.line {
+  position: absolute;
+  right: -8%;
+  width: 1px;
+  height: 100%;
+  background: #d6d6d686;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.dot1 > img,
+.dot2 > img,
+.dot3 > img {
+  width: 100%;
+}
+.dot1 {
+  left: 40%;
+  top: 60%;
+  width: 30px;
+}
+.dot2 {
+  left: 45%;
+  top: 50%;
+}
+
+.dot3 {
+  left: 53%;
+  top: 43%;
+  width: 30px;
+}
+
+.project-details {
+  flex: 2;
+  margin-left: 60px;
+}
+
+.project-details > section {
+  display: flex;
+}
+
+.pr-descreption {
+  font-size: 22px;
+  font-size: 600;
+}
+
+.title-arrow {
+  position: absolute;
+  width: 300px;
+  right: 32%;
+  top: -6%;
+}
+
+.pr-info {
+  display: flex;
+  margin-top: 20px;
+}
+.pr-logo {
+  background: #fff;
+  width: 80px;
+  height: 75px;
+  margin: 15px 25px 0 0;
+}
+.pr-logo > img {
+  width: 100%;
+  height: 100%;
+}
+.dt {
+  margin-bottom: 20px;
+}
+.dt > h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.dt > p {
+  font-weight: 300;
+  font-size: 15px;
+  width: 45%;
+}
+
+.pr-images {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-left: -500px;
+}
+.v {
+  position: absolute;
+  width: 10%;
+}
+.v1 {
+  width: 300px;
+  bottom: 10%;
+  right: 10%;
+  z-index: 5;
+}
+.v2 {
+  width: 180px;
+  top: -1%;
+  left: 8%;
+  z-index: 2;
+}
+.v3 {
+  width: 20%;
+  right: 40%;
+  top: 2%;
+  opacity: 0.8;
+  z-index: 3;
+}
+
+.v4 {
+  width: 8%;
+  left: 38%;
+  top: -3%;
+}
+
+.btns-div {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 50px 0 0 40px;
+}
+.btns-div > .btn {
+  width: 195px;
+  height: 40px;
+  padding: 3px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.btn.active {
+  background: linear-gradient(90.18deg, #2affff 4.54%, #17b6fe 219.8%);
+  color: #03012d;
+  font-weight: 600;
+}
+
+.navigation {
+  position: absolute;
+  left: 18%;
+  width: 50%;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+}
+.navigation > .down-nav,
+.navigation .home {
+  width: 50px;
+  height: 50px;
+}
+.navigation .home {
+  width: 49px;
+  height: 49px;
+}
+.home > img {
+  width: 100%;
+}
+
+.v11 {
+  width: 250px;
+  right: 15%;
+}
+.v22 {
+  width: 140px;
+  top: 65%;
+  left: 20%;
+}
+.v33 {
+  top: 18%;
+  right: 30%;
+}
+.v44 {
+  left: 80%;
+  top: 70%;
+}
+
+.navigation > a > .down-nav{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
