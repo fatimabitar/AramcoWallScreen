@@ -58,15 +58,17 @@
   margin-left: 10px;
   cursor: pointer;
 }
-
+#research-1 .btns-div {
+  margin: 70px 0 0 30px;
+}
 .research-1 .btns-div {
   display: flex;
   justify-content: space-between;
-  width: 1050px;
-  margin: 75px 0 0 30px;
+  width: 980px;
+  margin: 45px 0 0 30px;
 }
 .research-1 .btns-div > .btn {
-  width: 200px;
+  width: 195px;
   height: 40px;
   padding: 0;
   text-align: center;
